@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^jenis$ index.php?p=jenis [L]
+RewriteRule ^data-barang$ index.php?p=data-barang [L]
+</IfModule>
